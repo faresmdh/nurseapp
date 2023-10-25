@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/3dd3b232ba.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&display=swap" rel="stylesheet">
+    <title>Nurse - تفعيل الحساب</title>
+    <script src="https://cdn.jsdelivr.net/npm/appwrite@2.0.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script type="module" src="confirm.js"></script>
+    <style>
+        *{
+            font-family: 'El Messiri', sans-serif;
+        }
+        h1 {text-align: center;color: #4592af;}
+        h3 {text-align: center;}
+        h5 {text-align: center;}
+        p {text-align: center;}
+        div {text-align: center;}
+        i{
+            color: #4592af;
+            text-align: center;
+            -webkit-animation: rotating 2s linear infinite;
+        }
+        @-webkit-keyframes rotating {
+            from{
+                -webkit-transform: rotate(0deg);
+            }
+            to{
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 15px;
+        }
+    </style>   
+</head>
+<body>
+    <div>
+        <img src="logo.png"></img>
+    </div>
+    <h1>Nurse</h1>
+    <h3> ...    الرجاء   الانتظار   قليلا   حتى   يتم   تفعيل   حسابك</h3>
+    <div>
+        <i id="spinner" class="fa-solid fa-circle-notch"></i>
+    </div>
+    <h5 id = "message" style="direction: rtl;"></h5>
+</body>
+</html>
